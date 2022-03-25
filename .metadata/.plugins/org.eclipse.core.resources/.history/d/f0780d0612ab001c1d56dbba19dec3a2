@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Formulario_de_login</title>
+</head>
+<body>
+	<form id="formulario" name="formulario1" method="post"action="Login">
+		<p>Digite seu login : 
+		<input type="text" name="username" id="username"/>
+		</p>
+		<p>Digite sua senha : 
+		<input type="password" name="password" id="password"/>
+		</p>
+		<p>
+		<input type="button" name="botao" id="button" value="Efetuar login"/>  
+	</form>
+</body>
+</html>

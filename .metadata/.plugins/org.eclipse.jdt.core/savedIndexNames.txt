@@ -1,0 +1,10 @@
+INDEX VERSION 1.131+C:\Users\USER\OneDrive\Área de Trabalho\TJW\.metadata\.plugins\org.eclipse.jdt.core
+4253242634.index
+2499878056.index
+2281727079.index
+3953174650.index
+3828975653.index
+619503373.index
+400540718.index
+675690014.index
+875746838.index
