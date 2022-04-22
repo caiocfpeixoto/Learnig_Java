@@ -44,7 +44,7 @@ public class Login extends HttpServlet {
 		
 		PrintWriter out =response.getWriter();
 		
-		if(username.equals("kirito")&& password.equals("157")) {
+		if(username.equals("csp")&& password.equals("123")) {
 			request.getSession().setAttribute("username", username);
 			response.sendRedirect("email.jsp");
 		}else{
