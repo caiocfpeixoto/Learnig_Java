@@ -5,12 +5,12 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
 import br.edu.ifce.model.Aluno;
+import br.edu.ifce.utils.JPAUtil;
 
 
 public class JpaAluno {
 	public static void main(String args[]) {
-		EntityManagerFactory factory = Persistence.createEntityManagerFactory("TJW");
-		EntityManager manager = factory.createEntityManager(); 
+		EntityManager manager = JPAUtil.getEntityManager();
 		// representa a conexão com a unidade de persistencia*
 		
 		manager.getTransaction().begin();
@@ -29,6 +29,6 @@ public class JpaAluno {
 		manager.getTransaction().commit();
 		
 		manager.close();
-		factory.close();
+		
 	}
 }
