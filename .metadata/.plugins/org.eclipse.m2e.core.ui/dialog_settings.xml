@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\USER\OneDrive\Área de Trabalho\TJW\MeuPrimeiroJpa\src\main\java\br\edu\ifce\model"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -25,13 +26,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="ifce.edu.br.Hello"/>
 		</list>
 		<list key="groupId">
-			<item value="ifce.edu.br"/>
 		</list>
 		<list key="artifactId">
-			<item value="Hello"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

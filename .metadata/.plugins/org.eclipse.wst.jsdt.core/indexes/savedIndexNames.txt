@@ -1,9 +1,5 @@
 INDEX VERSION 1.4+C:\Users\USER\OneDrive\Área de Trabalho\TJW\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-658571757.index
-1672211886.index
 875746838.index
-4000279502.index
-3784804031.index
-3090669687.index
-40364793.index
-2819451453.index
+493893889.index
+171971874.index
+1672211886.index
