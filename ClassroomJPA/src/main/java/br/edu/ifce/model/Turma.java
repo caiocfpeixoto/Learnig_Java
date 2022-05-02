@@ -40,5 +40,10 @@ public class Turma {
 	public void setConteudo(String conteudo) {
 		this.conteudo = conteudo;
 	}
+	@Override
+	public String toString() {
+		return "Turma [id=" + id + ", nome=" + nome + ", codigo=" + codigo + ", conteudo=" + conteudo + "]";
+	}
+	
 	
 }

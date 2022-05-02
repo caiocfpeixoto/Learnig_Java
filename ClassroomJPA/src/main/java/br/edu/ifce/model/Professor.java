@@ -19,7 +19,7 @@ public class Professor {
 	private Long id;
 	
 	@Column(name="nome")
-	private String nome;
+	private String professor_nome;
 	
 	@Column(name="email_professor")
 	private String email;
@@ -27,11 +27,12 @@ public class Professor {
 	@OneToMany
 	private Collection<Turma> turma = new ArrayList<Turma>();
 	
-	private String getNome() {
-		return nome;
+	
+	public String getProfessor_nome() {
+		return professor_nome;
 	}
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setProfessor_nome(String professor_nome) {
+		this.professor_nome = professor_nome;
 	}
 	public String getEmail() {
 		return email;
@@ -39,4 +40,9 @@ public class Professor {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	@Override
+	public String toString() {
+		return "Professor [id=" + id + ", nome=" + professor_nome + ", email=" + email + ", turma=" + turma + "]";
+	}
+	
 }

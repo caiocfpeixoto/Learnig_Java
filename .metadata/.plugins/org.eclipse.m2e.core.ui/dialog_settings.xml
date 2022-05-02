@@ -26,10 +26,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="IFCE.ClassroomJPA"/>
 		</list>
 		<list key="groupId">
+			<item value="IFCE"/>
 		</list>
 		<list key="artifactId">
+			<item value="ClassroomJPA"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

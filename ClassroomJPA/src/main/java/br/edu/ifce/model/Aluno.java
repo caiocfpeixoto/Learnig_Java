@@ -19,7 +19,7 @@ public class Aluno {
 	private Long id;
 	
 	@Column(name="nome_aluno")
-	private String nome;
+	private String aluno_nome;
 	
 	@Column(name="email_aluno")
 	private String email_institucional;
@@ -30,11 +30,12 @@ public class Aluno {
 	@ManyToMany
 	private Collection<Professor> prof = new ArrayList<Professor>();
 	
-	public String getNome() {
-		return nome;
+	
+	public String getAluno_nome() {
+		return aluno_nome;
 	}
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setAluno_nome(String aluno_nome) {
+		this.aluno_nome = aluno_nome;
 	}
 	public String getEmail_institucional() {
 		return email_institucional;
